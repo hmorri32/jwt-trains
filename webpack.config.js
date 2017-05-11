@@ -19,7 +19,7 @@ const dest    = join(root, 'dist');
 
 var config = getConfig({
   isDev: isDev,
-  in: join(src, 'app.js'),
+  in: join(src, 'app.jsx'),
   out: dest,
   html: function (context) {
     return {

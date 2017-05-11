@@ -1,34 +1,35 @@
-/*@import url("styles/colors.css");
-*/
+/* @import url("styles/colors.css"); */
+
 *,
 *:after,
 *:before {
-    box-sizing: border-box;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    font-smoothing: antialiased;
-    text-rendering: optimizeLegibility;
+  box-sizing              : border-box;
+  -webkit-font-smoothing  : antialiased;
+  font-smoothing          : antialiased;
+  -moz-osx-font-smoothing : grayscale;
 }
 
 body {
-  color: var(--dark);
-  font-weight: lighter;
-  font: 400 15px/22px 'Open Sans', 'Helvetica Neue', Sans-serif;
-  font-smoothing: antialiased;
-  padding: 0;
-  margin: 0px;
+  margin         : 0px;
+  padding        : 0;
+  color          : var(--dark);
+  font           : 400 15px/22px 'Open Sans',
+                   'Helvetica Neue',
+                   Sans-serif;
+  font-weight    : lighter;
+  font-smoothing : antialiased;
 }
 
 h1 {
-  border-bottom: 1px solid #eac7df;
-  padding: 20px;
-  background: #333;
-  color: #eee;
+  padding       : 20px;
+  color         : #eee;
+  border-bottom : 1px solid #eac7df;
+  background    : #333;
 }
 
 h2 {
-  font-size: 16px;
-  font-weight: 400;
-  width: 77%;
-  margin: 0 auto;
+  width       : 77%;
+  margin      : 0 auto;
+  font-size   : 16px;
+  font-weight : 400;
 }

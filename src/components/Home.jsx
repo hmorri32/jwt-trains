@@ -10,11 +10,11 @@ export class Home extends React.Component {
     return (
       <div id="wrapper">
         <h2>Current Status of All Train Lines:</h2>
-        <div className={styles.flexContainer}>
+        <div className={ styles.flexContainer }>
           {trains.map(train =>
             <Train
-              key={train.id}
-              {...train}
+              key={ train.id }
+              { ...train }
             />
           )}
         </div>
